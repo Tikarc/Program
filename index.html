@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tika Ram Chapagain Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c6e2ff9606.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/narclogoprofile.JPG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-regular fa-circle-xmark" onclick="openmenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>Agriculture Researcher</p>
+                <h1>Hi, I am <span>Tika Ram</span><br>Chapagain from NARC</h1>
+            </div>
+        </div>
+    </div>
+    <!----This section is for about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <image src="./images/tikaideal.png"></image>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>
+                        Dr. Tika Ram Chapagain is principal scientist at Nepal Agricultural Research council(NARC). He has served the country for more than 25 years.
+                        He has worked as country coordinator in many internationally funded project. He has adminstrative experience as the Director of Administration at NARC.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Researcher</span><br>Climate Adaptive Agriculture</li>
+                            <li><span>Technology Development</span><br>Off-season vegetable production</li>
+                            <li><span>Programming</span><br>Web design and data analysis</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Chief Scientist</span><br>Vegetable production technology development</li>
+                            <li><span>Project Management</span><br>Internationally Funded Project</li>
+                            <li><span>Administration</span><br>Director, Administration, NARC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>PhD</span><br>Climate Resilience Vegetable Production</li>
+                            <li><span>Master in Agriculture</span><br>Off-season vegetable production</li>
+                            <li><span>BSc in Agriculture</span><br>Horticulture</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--This part describes my services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Principal Scientist</h2>
+                    <p>Climate change adaptation projects development,implementation and technology dissemination</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-light fa-crop"></i>
+                    <h2>Director</h2>
+                    <p>Vegetable breeding/selection, technology development projects designed,implemented and technology disseminated</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Technical Officer</h2>
+                    <p>Many vegetable technology development projects designed,implemented and technology disseminated</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio starts from here-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/tomato.png">
+                    <div class="layer">
+                        <h3>Heat Stress Management</h3>
+                        <p>Summer season tomato production using ogranic mulches and shade net in plains of Nepal</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/mpiwork.png">
+                    <div class="layer">
+                        <h3>Maize Vegetable Intercropping</h3>
+                        <p>It is the best example of agroecological practices for food, nutritution, income and sustainable agriculture </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/wdir.png">
+                    <div class="layer">
+                        <h3>Climate Smart Agriculture</h3>
+                        <p>Verified and up-scaled CSA practices (DSR, Zero tillage, Wet and dry irrigation-rice, etc) in Nepal</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---Contanct section---->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>chapagaintika@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0977 9851133612</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Tika Ram Chapagain cv.doc" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Tika. Prepared with <i class="fa-sharp fa-regular fa-heart"></i> the help of GreatStack.Kevin</p>
+        </div>
+    </div>
+
+    <script> <!--this part is related to about me-->
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+</script>
+
+</body>
+</html>
